@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "bubblemod",
+  "version": "${version}",
+
+  "name": "Bubble Mod",
+  "description": "QoL mod For AkumaMC",
+  "authors": [
+    "Bubbles"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/bubblemod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.bubbles.bubblemod.Client"
+    ]
+  },
+  "mixins": [
+    "bubblemod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
